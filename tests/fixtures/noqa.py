@@ -8,7 +8,7 @@ sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.
 
 import os  # noqa: E402
 
-from conf import project  # noqa: F401,E402
+from conf import project  # noqa: F401,E402 isort:skip
 from conf import project  # noqa isort:skip
 
 print("""
