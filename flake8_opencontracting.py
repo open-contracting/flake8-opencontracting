@@ -10,5 +10,5 @@ def _print(physical_line):
         yield match.start(), f"FOC100 {match.group(1)}"
 
 
-def logical(physical_line: Any) -> Generator[Tuple[int, str], None, None]:
+def physical(physical_line: Any) -> Generator[Tuple[int, str], None, None]:
     yield from _print(physical_line)
