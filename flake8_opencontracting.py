@@ -11,4 +11,7 @@ def _print(physical_line):
 
 
 def physical(physical_line: Any) -> Generator[Tuple[int, str], None, None]:
+    """
+    Flake8 extension entry point.
+    """
     yield from _print(physical_line)
